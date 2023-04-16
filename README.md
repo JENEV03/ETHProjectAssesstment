@@ -6,7 +6,7 @@
 pragma solidity 0.8.18;
 
 contract MyToken {
-
+    
     // public variables here
         string public name = "JENEVIVE";
         string public abbrv = "JEN";
@@ -27,4 +27,4 @@ contract MyToken {
                 bal[add] -= val;
             }
         }
-}
+     }
